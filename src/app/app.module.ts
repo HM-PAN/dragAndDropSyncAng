@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DiagramAllModule, DiagramModule, OverviewAllModule, SymbolPaletteAllModule } from '@syncfusion/ej2-angular-diagrams';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,16 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    DiagramModule,
+    DiagramAllModule,
+    SymbolPaletteAllModule,
+    OverviewAllModule,
+    BrowserModule,
+    DiagramAllModule,
+     SymbolPaletteAllModule,
+      OverviewAllModule,
+ BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
